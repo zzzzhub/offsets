@@ -9,7 +9,4 @@
 </p>
 
 ## Files
-- [internal-offsets.hpp](https://github.com/zzzzhub/offsets/blob/main/internal-offsets.hpp)
-
-## Repo
-- [GitHub Repository](https://github.com/zzzzhub/offsets)
+- [Internal Offsets](https://github.com/zzzzhub/offsets/blob/main/internal-offsets.hpp)
