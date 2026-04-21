@@ -1,4 +1,4 @@
-# internal-offsets
+# offsets
 Latest Internal Roblox Offsets
 
 <p align="center">
