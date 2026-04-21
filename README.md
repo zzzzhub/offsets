@@ -3,7 +3,9 @@
 
 ## Stats
 <p align="center">
-  https://img.shields.io/github/commit-activity/m/zzzzhub/offsets
+  <a href="https://github.com/zzzzhub/offsets/commits/main">
+    <img src="https://img.shields.io/github/last-commit/zzzzhub/offsets?style=for-the-badge&logo=github&color=purple">
+  </a>
 </p>
 
 ## Files
