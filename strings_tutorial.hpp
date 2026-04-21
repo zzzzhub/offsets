@@ -1,3 +1,5 @@
+// if you have other methods of retrieving offsets using strings please feel free to message me on discord: @credential_ or @2qp0
+
 namespace Strings {
     const uintptr_t FlogDataBank = WindowsRealtimeProtocolEnabled // string use xref
     const uintptr_t Print = Current identity is %d // string use xref
