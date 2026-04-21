@@ -1,14 +1,13 @@
-# offsets
-Latest Internal Roblox Offsets
+# Offsets
+### Latest Internal Roblox Offsets
 
+## Stats
 <p align="center">
-  <br><br>
-  <a href="https://github.com/zzzzhub/offsets/stargazers">
-    <img src="https://img.shields.io/github/stars/zzzzhub/offsets?style=for-the-badge&logo=github&color=yellow" alt="Stars">
-  </a>
-  <a href="https://github.com/zzzzhub/offsets/commits/main">
-    <img src="https://img.shields.io/github/last-commit/zzzzhub/offsets?style=for-the-badge&logo=github&color=purple" alt="Last Commit">
-  </a>
-  <br>
-  <img src="https://img.shields.io/github/commit-activity/t/zzzzhub/offsets?style=for-the-badge&logo=github&color=teal" alt="Commit activity">
+  ...
 </p>
+
+## Files
+- [internal-offsets.hpp](https://github.com/zzzzhub/offsets/blob/main/internal-offsets.hpp)
+
+## Repo
+- [GitHub Repository](https://github.com/zzzzhub/offsets)
