@@ -1,5 +1,5 @@
-// roblox version hash: version-9d412f44a6fe4081
-// roblox version: 0.717.0.27558
+// roblox version hash: version-2e6461290a3541f5
+// roblox version: 0.718.0.37680
 // owners: credential (@credential_) and zzzz (@2qp0)
 // join my script hub: discord.gg/zzzzhub
 // join my executor server: discord.gg/HTG8P6hHSW
@@ -7,93 +7,84 @@
 #pragma once
 #include <cstdint>
 
-namespace offsets 
-{
-    namespace rbx_instance 
-    {
-        constexpr std::uintptr_t new_inst       = 0x7584E0;
-        constexpr std::uintptr_t from_existing  = 0x130AD80;
-        constexpr std::uintptr_t get_property   = 0x46551A0;
+namespace offsets {
+    namespace Instance {
+        constexpr std::uintptr_t new = 0x9C21E0;
+        constexpr std::uintptr_t fromExisting = 0x1357BC0;
     }
 
-    namespace rbx_functions 
-    {
-        constexpr std::uintptr_t print          = 0x4653ED0;
-        constexpr std::uintptr_t log_crash      = 0x46551A0;
-        constexpr std::uintptr_t proximity_fire = 0x4654680;
-        constexpr std::uintptr_t get_caps       = 0x4365240;
+    namespace Raknet {
+        constexpr std::uintptr_t ProcessNetworkPacket = 0x1344920;
     }
 
-    namespace rbx_bridge 
-    {
-        constexpr std::uintptr_t reg_class      = 0x1BCD070;
-        constexpr std::uintptr_t reg_vec3       = 0x1C707C0;
-        constexpr std::uintptr_t reg_vec2       = 0x1C9DE00;
-        constexpr std::uintptr_t reg_phys_prop  = 0x460C130;
-        constexpr std::uintptr_t remap_types    = 0x4270400;
+    namespace core {
+        constexpr std::uintptr_t KTable = 0x749B470;
+        constexpr std::uintptr_t newpage = 0x4389AC0;
+        constexpr std::uintptr_t newclasspage = 0x4389B70;
+        constexpr std::uintptr_t freeclasspage = 0x4389BE0;
+        constexpr std::uintptr_t newblock = 0x4389D20;
+        constexpr std::uintptr_t newgcoblock = 0x4389C80;
+        constexpr std::uintptr_t freeblock = 0x4389DB0;
+        constexpr std::uintptr_t luaM_free = 0x4389E70;
+        constexpr std::uintptr_t luaM_freegco = 0x4389EF0;
+        constexpr std::uintptr_t luaM_visitgco = 0x438A000;
+        constexpr std::uintptr_t luaM_toobig = 0x4389A90;
+        constexpr std::uintptr_t close_state = 0x4332CE0;
+        constexpr std::uintptr_t f_luaopen = 0x4331F80;
+        constexpr std::uintptr_t auxopen = 0x436AB40;
+        constexpr std::uintptr_t luaopen_base = 0xCB19A0;
+        constexpr std::uintptr_t newproxy = 0x436A7E0;
+        constexpr std::uintptr_t luaT_objtypename = 0x4399110;
+        constexpr std::uintptr_t lua_rawcheckstack = 0x432D4D0;
+        constexpr std::uintptr_t luaA_toobject = 0x432D080;
+        constexpr std::uintptr_t lua_pushvfstring = 0x432E070;
+        constexpr std::uintptr_t pseudo2addr = 0x432CFC0;
+        constexpr std::uintptr_t lua_xmove = 0x432D7F0;
+        constexpr std::uintptr_t lua_pushfstringL = 0x432E0E0;
+        constexpr std::uintptr_t luaL_findtable = 0x486C950;
+        constexpr std::uintptr_t luaL_register = 0x4337A50;
+        constexpr std::uintptr_t luaL_checklstring = 0x4336250;
+        constexpr std::uintptr_t luaL_checkany = 0x43694B0;
+        constexpr std::uintptr_t luaL_pushresult = 0x433AD20;
+        constexpr std::uintptr_t luaG_runerrorL = 0x4340010;
+        constexpr std::uintptr_t luaO_pushvfstring = 0x43A04C0;
+        constexpr std::uintptr_t luaO_chunkid = 0x43A0BF0;
+        constexpr std::uintptr_t GetProperty = 0x4723F70;
+        constexpr std::uintptr_t luaO_pushfstring = 0x43A0BC0;
+        constexpr std::uintptr_t luaF_freeproto = 0x4A4C5C0;
+        constexpr std::uintptr_t luaF_newproto = 0x4399130;
+        constexpr std::uintptr_t luaD_throw = 0x432F190;
+        constexpr std::uintptr_t luaD_rawrunprotected = 0x432F160;
+        constexpr std::uintptr_t luau_execute = 0x43487E0;
+        constexpr std::uintptr_t luaV_getimport = 0x4340810;
+        constexpr std::uintptr_t luaC_step = 0x433EF90;
+        constexpr std::uintptr_t GetLuaState = 0x1C33CF0;
+        constexpr std::uintptr_t RobloxLogCrash = 0x4723F70;
+        constexpr std::uintptr_t get_capabilites = 0x4435650;
+        constexpr std::uintptr_t std_runtime_error = 0x4722E40;
+        constexpr std::uintptr_t Bridge_registerClass = 0x1C279A0;
+        constexpr std::uintptr_t PhysicalPropertiesBridge_registerClass = 0x1CCA550;
+        constexpr std::uintptr_t resume = 0x1D62FF0;
+        constexpr std::uintptr_t SandBoxThread = 0x171F400;
+        constexpr std::uintptr_t openState = 0x1D32EB0;
+        constexpr std::uintptr_t startScript = 0x44BC4B0;
+        constexpr std::uintptr_t Lua_protect_metatable = 0x1C26C00;
+        constexpr std::uintptr_t loadLibraryProtected = 0x1D32C00;
+        constexpr std::uintptr_t create = 0x436D920;
+        constexpr std::uintptr_t running = 0x436DFC0;
+        constexpr std::uintptr_t status = 0x436C540;
+        constexpr std::uintptr_t wrap = 0x436DDD0;
+        constexpr std::uintptr_t yield = 0x436DF60;
+        constexpr std::uintptr_t isyieldable = 0x436E020;
+        constexpr std::uintptr_t close = 0x436E050;
+        constexpr std::uintptr_t info = 0x973FA0;
+        constexpr std::uintptr_t remapUserdataTypes = 0x4340EA0;
+        constexpr std::uintptr_t compress = 0x45B2850;
+        constexpr std::uintptr_t LuaVMLoad = 0x333C570;
     }
 
-    namespace vmscheduler 
-    {
-        constexpr std::uintptr_t task_defer     = 0x149AAD0;
-        constexpr std::uintptr_t task_wait      = 0x3C37480;
-        constexpr std::uintptr_t task_cancel    = 0x1D7E730;
-        constexpr std::uintptr_t start_script   = 0x43EC020;
+    namespace task {
+        constexpr std::uintptr_t cancel = 0x1DE1830;
     }
 
-    namespace vmstate 
-    {
-        constexpr std::uintptr_t get_lua_state  = 0x1BD9240;
-        constexpr std::uintptr_t open_state     = 0x1CD8450;
-        constexpr std::uintptr_t sandbox_thread = 0x16C8220;
-        constexpr std::uintptr_t load_lib_prot  = 0x1CD81A0;
-        constexpr std::uintptr_t luau_load      = 0x1D0A195;
-        constexpr std::uintptr_t luau_execute   = 0x4277D20;
-        constexpr std::uintptr_t f_luaopen      = 0x4261550;
-    }
-
-    namespace vmmemory 
-    {
-        constexpr std::uintptr_t lua_m_free     = 0x42B9950;
-        constexpr std::uintptr_t lua_m_freegco  = 0x42B99D0;
-        constexpr std::uintptr_t lua_c_step     = 0x426E560;
-        constexpr std::uintptr_t new_page       = 0x42B95B0;
-        constexpr std::uintptr_t new_block      = 0x42B9770;
-        constexpr std::uintptr_t free_block     = 0x42B98A0;
-    }
-
-    namespace luau_api 
-    {
-        constexpr std::uintptr_t lua_tostring   = 0x429A190;
-        constexpr std::uintptr_t lua_newproxy   = 0x429A1F0;
-        constexpr std::uintptr_t lua_xmove      = 0x425CD90;
-        constexpr std::uintptr_t lua_pushvfstr  = 0x425D610;
-        constexpr std::uintptr_t lua_pushfstrL  = 0x425D680;
-        constexpr std::uintptr_t lua_newproto   = 0x42C8D10;
-        constexpr std::uintptr_t lua_ktable     = 0x7393F00;
-    }
-
-    namespace luau_lib 
-    {
-        constexpr std::uintptr_t l_register     = 0x2AE4550;
-        constexpr std::uintptr_t l_findtable    = 0x4267F20;
-        constexpr std::uintptr_t l_newmetatable = 0x54EB190;
-        constexpr std::uintptr_t l_checklstring = 0x4265810;
-        constexpr std::uintptr_t l_checktype    = 0x4263B30;
-    }
-
-    namespace coroutine 
-    {
-        constexpr std::uintptr_t co_create      = 0x429D380;
-        constexpr std::uintptr_t co_yield       = 0x429D9C0;
-        constexpr std::uintptr_t co_resume      = 0x1D08A20;
-        constexpr std::uintptr_t co_status      = 0x429BFA0;
-        constexpr std::uintptr_t co_running     = 0x429DA20;
-        constexpr std::uintptr_t co_close       = 0x429DAB0;
-    }
-
-    namespace raknet
-    {
-        constexpr std::uintptr_t raknet_err     = 0xA38EB0;
-    }
-}
+} // namespace offsets
