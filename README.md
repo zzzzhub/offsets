@@ -1,5 +1,6 @@
 # Offsets
-Latest Internal Roblox Offsets Repo \n
+Latest Internal Roblox Offsets Repo
+
 Maintained By: credential and zzzz
 
 ## Stats
