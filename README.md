@@ -4,7 +4,7 @@
 ## Stats
 <p align="center">
   <a href="https://github.com/dreamszs/offsets/commits/main">
-    <img src="https://img.shields.io/github/last-commit/zzzzhub/offsets?style=for-the-badge&logo=github&color=purple">
+    <img src="https://img.shields.io/github/last-commit/dreamszs/offsets?style=for-the-badge&logo=github&color=purple">
   </a>
 </p>
 
