@@ -3,7 +3,7 @@
 
 ## Stats
 <p align="center">
-  ...
+  https://img.shields.io/github/commit-activity/m/zzzzhub/offsets
 </p>
 
 ## Files
