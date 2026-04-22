@@ -1,0 +1,56 @@
+// rblx version-9d412f44a6fe4081
+// dumped by @credential_
+
+namespace Offsets {
+    constexpr uintptr_t auxopen = 0x429a590;
+    constexpr uintptr_t currfuncname = 0x4263940;
+    constexpr uintptr_t f_luaopen = 0x4261550;
+    constexpr uintptr_t freeblock = 0x42b98a0;
+    constexpr uintptr_t freeclasspage = 0x42b96d0;
+    constexpr uintptr_t get_capabilites = 0x4365240;
+    constexpr uintptr_t GetLuaState = 0x1bd9240;
+    constexpr uintptr_t GetProperty = 0x46551a0;
+    constexpr uintptr_t KTable = 0x7393f00;
+    constexpr uintptr_t luaA_toobject = 0x425c5f0;
+    constexpr uintptr_t luaC_step = 0x426e560;
+    constexpr uintptr_t luaD_rawrunprotected = 0x425e6e0;
+    constexpr uintptr_t luaD_throw = 0x425e710;
+    constexpr uintptr_t luaF_newproto = 0x42c8d10;
+    constexpr uintptr_t luaG_runerrorL = 0x426f5c0;
+    constexpr uintptr_t luaL_argerrorL = 0x42639c0;
+    constexpr uintptr_t luaL_checkany = 0x4298ec0;
+    constexpr uintptr_t luaL_checklstring = 0x4265810;
+    constexpr uintptr_t luaL_checktype = 0x4263b30;
+    constexpr uintptr_t luaL_errorL = 0x42644e0;
+    constexpr uintptr_t luaL_findtable = 0x4267f20;
+    constexpr uintptr_t luaL_newmetatable = 0x4264d00;
+    constexpr uintptr_t luaL_pushresult = 0x426a2d0;
+    constexpr uintptr_t luaL_register = 0x4267040;
+    constexpr uintptr_t luaL_typeerrorL = 0x27be770;
+    constexpr uintptr_t luaL_where = 0x4263b60;
+    constexpr uintptr_t luaM_free = 0x42b9950;
+    constexpr uintptr_t luaM_freegco = 0x42b99d0;
+    constexpr uintptr_t luaM_toobig = 0x42b9580;
+    constexpr uintptr_t luaM_visitgco = 0x42b9af0;
+    constexpr uintptr_t luaO_chunkid = 0x42d0800;
+    constexpr uintptr_t luaO_pushfstring = 0x42d07d0;
+    constexpr uintptr_t luaO_pushvfstring = 0x42d00d0;
+    constexpr uintptr_t luaT_objtypename = 0x42c8cf0;
+    constexpr uintptr_t luaT_objtypenamestr = 0x42c8b60;
+    constexpr uintptr_t luaV_getimport = 0x426fd60;
+    constexpr uintptr_t lua_pushfstringL = 0x425d680;
+    constexpr uintptr_t lua_pushvfstring = 0x425d610;
+    constexpr uintptr_t lua_rawcheckstack = 0x425ca60;
+    constexpr uintptr_t lua_xmove = 0x425cd90;
+    constexpr uintptr_t luaopen_base = 0x429ac50;
+    constexpr uintptr_t newblock = 0x42b9770;
+    constexpr uintptr_t newclasspage = 0x42b9660;
+    constexpr uintptr_t newgcoblock = 0x42b9800;
+    constexpr uintptr_t newpage = 0x42b95b0;
+    constexpr uintptr_t newproxy = 0x429a1f0;
+    constexpr uintptr_t pseudo2addr = 0x425c530;
+    constexpr uintptr_t RbxPrint = 0x1d96fb0;
+    constexpr uintptr_t RobloxLogCrash = 0x46551a0;
+    constexpr uintptr_t std_runtime_error = 0x4654070;
+    constexpr uintptr_t tostring = 0x429a1f0;
+}
