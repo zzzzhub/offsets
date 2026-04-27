@@ -31,7 +31,7 @@ namespace offsets {
         constexpr std::uintptr_t luaM_visitgco = 0x438A2A0;
         constexpr std::uintptr_t luaM_toobig = 0x4389D30;
         constexpr std::uintptr_t close_state = 0x4332F80;
-        constexpr std::uintptr_t lua_newstate = 0xFFDB10; // incorrect :c
+        constexpr std::uintptr_t lua_newstate = 0x4333630; // OR 0x4333390
         constexpr std::uintptr_t f_luaopen = 0x4332220;
         constexpr std::uintptr_t auxopen = 0x436ADE0;
         constexpr std::uintptr_t luaopen_base = 0xCB1AC0;
