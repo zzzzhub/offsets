@@ -12,3 +12,6 @@ Maintained By: credential and zzzz
 
 ## Files
 [Internal Offsets](https://github.com/zzzzhub/offsets/blob/main/internal-offsets.hpp)
+
+## INFO
+> We will be dumping more offsets along with structs shuffles and everything else needed.
