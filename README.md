@@ -1,7 +1,7 @@
 # Offsets
 Latest Internal Roblox Offsets Repo
 
-Maintained By: credential and zzzz
+Maintained By: @credential_ and @2qp0 on discord
 
 ## Stats
 <p align="center">
