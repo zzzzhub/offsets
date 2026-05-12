@@ -1,5 +1,6 @@
 // rblx version-9d412f44a6fe4081
 // dumped by @credential_
+// some may be inaccurate <3
 
 namespace Offsets {
     constexpr uintptr_t auxopen = 0x429a590;
