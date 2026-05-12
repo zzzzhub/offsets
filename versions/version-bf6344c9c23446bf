@@ -7,6 +7,7 @@
 // found manually - @2qp0, @credential_
 // check out my github or sum - https://github.com/zzzzhub
 // if there is some offsets you want just shoot me a dm or ping me with the name
+// some may be inaccurate <3 please use other offsets to compare <333
 
 namespace Offsets {
     const uintptr_t BindableEventEventSink = 0x58;
