@@ -11,8 +11,8 @@ namespace Structs {
     const uintptr_t LuauOpcode = 0x5F55610;
     const uintptr_t KTable = 0x7BABE20;
     const uintptr_t RawSchedulerHumanoidParallelManagerCtor = 0x1872D20;
-    const uintptr_t luaO_nilobject = 0x62A8C38;
-    const uintptr_t luaH_dummynode = 0x62A8AF8;
+    const uintptr_t luaO_nilobject = 0x62A8C38; // incorrect
+    const uintptr_t luaH_dummynode = 0x62A8AF8; // incorrect
     const uintptr_t luaT_typenames = 0x62A89B0;
     const uintptr_t luaT_eventnames = 0x62A86F0;
     const uintptr_t TaskSchedulerPointer = 0x7BA3198;
@@ -33,7 +33,7 @@ namespace Functions {
     const uintptr_t callerrfunc = 0x474A150;
     const uintptr_t close_state = 0x4748B20;
     const uintptr_t f_luaopen = 0x4748BE0;
-    const uintptr_t luau_execute = 0x474B410;
+    const uintptr_t luau_execute = 0x474B410; // wrong
     const uintptr_t luaC_step = 0x474F050;
     const uintptr_t freegco = 0x474EFC0;
     const uintptr_t markroot = 0x474FA90;
