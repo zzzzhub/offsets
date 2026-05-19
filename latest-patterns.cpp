@@ -1,10 +1,10 @@
-// version-ec412128eba3476e
+// version-9377ee10133e4be3
 // all accurate + checked
 // use them for your own dumper or whatever idc
 // found and created by @2qp0 and @credential_ 
-// depression sucks
+// keep moving forward
 
-// last updated: may 12, 2026
+// last updated: may 18, 2026
 
 namespace Patterns {
     constexpr const char* AttachRobloxExtraSpace = "48 89 5C 24 ? 4C 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 83 EC ? 4D 8B F9 4D 8B E8";
@@ -46,13 +46,13 @@ namespace Patterns {
     constexpr const char* luaL_register = "48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 45 33 F6 49 8B D8";
     constexpr const char* luaL_findtable = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC ? 45 8B F1 49 8B F8";
     constexpr const char* luaL_getmetafield = "48 89 5C 24 ? 57 48 83 EC ? F6 41 ? ? 48 8B D9 48 63 FA 74 ? 4C 8D 41 ? 48 8B D1 E8 ? ? ? ? 85 FF 7E ? 48 8B 53 ? 48 8D 05 ? ? ? ? 48 83 C2 ? 48 8B CF 48 C1 E1 ? 48 03 D1 48 3B 53 ? 48 0F 42 C2 EB ? 81 FF ? ? ? ? 7E ? 48 8B C7 48 C1 E0 ? 48 03 43 ? EB ? 8B D7 48 8B CB E8 ? ? ? ? 48 63 48";
-    constexpr const char* luaL_callmeta = "48 89 5C 24 ? 57 48 83 EC ? 49 8B F8 48 8B D9 E8 ? ? ? ? 85 C0 74 ? 48 8B D7";
+    // OUTDATED: constexpr const char* luaL_callmeta = "48 89 5C 24 ? 57 48 83 EC ? 49 8B F8 48 8B D9 E8 ? ? ? ? 85 C0 74 ? 48 8B D7";
     constexpr const char* luaL_checklstring = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B F9 49 8B D8 8B F2 48 8B E9 E8";
     constexpr const char* luaL_argerrorL = "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B F8 8B F2 48 8B D9 E8 ? ? ? ? 44 8B C6";
     constexpr const char* luaL_typerrorL = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B E8 8B F2 48 8B D9 E8";
     constexpr const char* currfuncname = "48 89 5C 24 ? 57 48 83 EC ? 48 8B 41 ? 48 8B F9 48 3B 41";
     constexpr const char* currentline = "4C 8B 42 ? 4D 85 C0 74 ? 48 8B 42 ? 48 8B 08";
-    constexpr const char* lua_typename = "83 FA ? CC CC 48 8D 05";
+    // OUDATED: constexpr const char* lua_typename = "83 FA ? CC CC 48 8D 05";
     constexpr const char* luaA_toobject = "48 83 EC ? 4C 8D 15 ? ? ? ? 85 D2";
     constexpr const char* pseudoaddr = "41 B9 ? ? ? ? 4C 8B C1 41 3B D1";
     constexpr const char* pusherror = "48 89 5C 24 ? 57 48 83 EC ? 49 8B D8 48 8B F9 83 EA";
@@ -104,8 +104,8 @@ namespace Patterns {
     constexpr const char* coclose = "48 89 5C 24 ? 57 48 83 EC ? BA ? ? ? ? 48 8B D9 E8 ? ? ? ? 48 8B F8 48 8B CB 48 85 C0 0F 84";
     constexpr const char* luaT_init = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B F9 48 8D 2D ? ? ? ? BB";
     constexpr const char* GetCapabilities = "48 8B C1 33 D2 48 83 C1 ? 48 85 C0 48 0F 44 CA E9 ? ? ? ? CC CC CC CC CC CC CC CC CC CC CC E9";
-    constexpr const char* IentityToCaps = "48 63 01 83 F8 ? 77 ? 48 8D 15";
+    // OUTDATED: constexpr const char* IentityToCaps = "48 63 01 83 F8 ? 77 ? 48 8D 15";
     constexpr const char* GetIdentityStruct = "48 8B 0D ? ? ? ? E9 ? ? ? ? CC CC CC CC F6 C1";
     constexpr const char* GetValues = "48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 48 85 C9 74 ? 48 8D 4B";
-    constexpr const char* GetCurrentThreadIdentity = "48 83 EC ? 48 85 C9 CC CC E8 ? ? ? ? 48 8B 40 ? 48 8B 40 ? 48 83 C4 ? C3 33 C0 48 8B 40 ? 48 8B 40 ? 48 83 C4 ? C3 CC CC CC CC CC CC 48 89 5C 24";
+    // OUTDATED: constexpr const char* GetCurrentThreadIdentity = "48 83 EC ? 48 85 C9 CC CC E8 ? ? ? ? 48 8B 40 ? 48 8B 40 ? 48 83 C4 ? C3 33 C0 48 8B 40 ? 48 8B 40 ? 48 83 C4 ? C3 CC CC CC CC CC CC 48 89 5C 24";
 }
