@@ -18,4 +18,5 @@ Maintained By: @credential_ and @2qp0 on discord
 
 ## Accuracy (for enc so far)
 <img width="756" height="207" alt="image" src="https://github.com/user-attachments/assets/847efe35-0c8e-4536-8eb7-734057a887c0" />
-> ty king mx
+
+> ty mx <3
