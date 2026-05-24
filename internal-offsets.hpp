@@ -8,9 +8,9 @@
 #include <cstdint>
 
 namespace Functions {
-    const uintptr_t AttachRobloxExtraSpace = 0x0;
-    const uintptr_t print = 0x0;
-    const uintptr_t getglobalstate = 0x0;
+    const uintptr_t AttachRobloxExtraSpace = 0x1C93300;
+    const uintptr_t print = 0x1DD04E0;
+    const uintptr_t getglobalstate = 0x1C731E0;
     const uintptr_t luaD_throw = 0x474afb0;
     const uintptr_t luaD_rawrunprotected = 0x474ac70;
     const uintptr_t callerrfunc = 0x474a080;
@@ -36,7 +36,7 @@ namespace Functions {
     const uintptr_t ScriptContextResume = 0x1d5f0b0;
     const uintptr_t luavm__load = 0x4750ad0;
     const uintptr_t loadsafe = 0x4750d80;
-    const uintptr_t luaG_runerrorL = 0x0;
+    const uintptr_t luaG_runerrorL = 0x474DE60;
     const uintptr_t close_state = 0x4748a50;
     const uintptr_t f_luaopen = 0x4748b10;
     const uintptr_t luaM_free_ = 0x476b470;
@@ -49,15 +49,14 @@ namespace Functions {
     const uintptr_t luaL_getmetafield = 0x4745bf0;
     const uintptr_t luaL_checklstring = 0x474c6c0;
     const uintptr_t luaL_argerrorL = 0x474bf40;
-    const uintptr_t luaL_typerrorL = 0x0;
+    const uintptr_t luaL_typerrorL = 0x474D150;
     const uintptr_t currfuncname = 0x474ba50;
-    const uintptr_t currentline = 0x0;
     const uintptr_t luaA_toobject = 0x47452a0;
     const uintptr_t pseudoaddr = 0x4748980;
     const uintptr_t pusherror = 0x474af30;
-    const uintptr_t tag_error = 0x0;
+    const uintptr_t tag_error = 0x474D310;
     const uintptr_t luaL_tolstring = 0x474ca40;
-    const uintptr_t luaL_where = 0x0;
+    const uintptr_t luaL_where = 0x474D270;
     const uintptr_t luaT_objtypename = 0x476bee0;
     const uintptr_t luaH_new = 0x476d930;
     const uintptr_t luaO_pushfstring = 0x477b180;
@@ -106,15 +105,13 @@ namespace Functions {
     const uintptr_t GetIdentityStruct = 0x7a643c8;
     const uintptr_t GetValues = 0x1c7d0b0;
     const uintptr_t GetLuaStateForInstance = 0x0;
-    const uintptr_t IdentityPtr = 0x0;
-    const uintptr_t FireTouchInterest = 0x0;
+    const uintptr_t IdentityPtr = 0x7A643C8;
+    const uintptr_t FireTouchInterest = 0x2A2C450;
     const uintptr_t KTable = 0x7c07590;
-    const uintptr_t PushInstance = 0x0;
+    const uintptr_t PushInstance = 0x1D22700;
     const uintptr_t OpcodeLookupTable = 0x752d988;
-    const uintptr_t LuaH_DummyNode = 0x0;
-    const uintptr_t LuaO_NilObject = 0x0;
-    const uintptr_t Impersonator = 0x0;
-    const uintptr_t Rawscheduler = 0x0;
+    const uintptr_t LuaH_DummyNode = 0x62F44E0;
+    const uintptr_t LuaO_NilObject = 0x62F4388;
     const uintptr_t newclasspage = 0x476bb30;
-    const uintptr_t FireProximityPrompt = 0x0;
+    const uintptr_t FireProximityPrompt = 0x25FFE10;
 } // pibble was here
