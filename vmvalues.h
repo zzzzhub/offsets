@@ -1,3 +1,5 @@
+// version-460909c4fe904aae
+
 #pragma once
 #include <cstdint>
 #include <type_traits>
