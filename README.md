@@ -18,7 +18,10 @@ Maintained By: @credential_ and @2qp0 on discord
 
 > If your looking reach out make sure to contact @credential_ or @2qp0 on discord
 
-## Accuracy (for enc so far)
+## Accuracy
 <img width="756" height="207" alt="image" src="https://github.com/user-attachments/assets/847efe35-0c8e-4536-8eb7-734057a887c0" />
 
 > ty mx <3
+
+## Related Sources
+[Sigmogger Plugin](https://github.com/zzzzhub/sigmogger/releases)
