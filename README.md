@@ -11,10 +11,10 @@ Maintained By: @credential_ and @2qp0 on discord
 </p>
 
 ## Files
-[OFFSETS](https://github.com/zzzzhub/offsets/blob/main/offsets)
-[VMVALUES](https://github.com/zzzzhub/offsets/blob/main/vmvalues)
-[ENC](https://github.com/zzzzhub/offsets/blob/main/enc)
-[PATTERNS](https://github.com/zzzzhub/offsets/blob/main/patterns)
+[OFFSETS](https://github.com/zzzzhub/offsets/blob/main/offsets),
+[VMVALUES](https://github.com/zzzzhub/offsets/blob/main/vmvalues),
+[ENC](https://github.com/zzzzhub/offsets/blob/main/enc),
+[PATTERNS](https://github.com/zzzzhub/offsets/blob/main/patterns),
 [CURRENT VERSION](https://github.com/zzzzhub/offsets/blob/main/current)
 
 ## INFO
