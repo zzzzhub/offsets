@@ -50,5 +50,3 @@ namespace Offsets {
     luaF_close = 0x4461360;
     luaO_nilobject_xref = 0x4463B40;
 }
-
-```
