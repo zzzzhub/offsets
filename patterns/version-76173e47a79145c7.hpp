@@ -17,7 +17,6 @@ namespace Memory {
     inline constexpr const char* luaM_newgco = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 48 8B 71 ? 48 8D 42";
     inline constexpr const char* newgcoblock = "40 53 48 83 EC ? 4C 63 CA 48 8B 51 ? 4A 8D 1C CA";
     inline constexpr const char* luaM_visitgco = "40 56 41 54 41 55 48 83 EC ? 48 8B 41";
-
 }
 
 namespace Luau {
@@ -49,6 +48,22 @@ namespace Roblox {
     inline constexpr const char* ScriptContextResume = "48 8B C4 44 89 48 ? 4C 89 40 ? 48 89 50 ? 48 89 48 ? 53";
     inline constexpr const char* PushInstance = "48 89 5C 24 ? 57 48 83 EC ? 48 8B FA 48 8B D9 E8 ? ? ? ? 48 8B CB 84 C0 74 ? 48 8B D7";
     inline constexpr const char* GetIdentityStruct = "48 83 EC ? E8 ? ? ? ? 48 85 C0 74 ? 48 83 C4 ? C3";
+}
+
+namespace Input {
+    inline constexpr const char* FireLeftMouseClick = "48 8B C4 55 41 54 41 56 41 57 48 8D 68 A1 48 81 EC 88 00 00 00 F3 0F 10 81 00 01 00 00 45 33 E4 0F 2F C1 4D 8B F0 44 89 65 6F 4C 8B F9 0F 86 B9 01 00 00";
+    inline constexpr const char* FireRightMouseClick = "48 8B C4 55 41 54 41 56 41 57 48 8D 68 A1 48 81 EC 88 00 00 00 F3 0F 10 81 00 01 00 00 45 33 E4 0F 2F C1 4D 8B F0 44 89 65 6F 4C 8B F9 0F 86 BC 01 00 00";
+    inline constexpr const char* FireMouseHoverEnter = "48 89 5C 24 ? 48 89 74 24 ? 55 57 41 54 41 56 41 57 48 8B EC 48 81 EC ? ? ? ? 45 33 E4";
+    inline constexpr const char* FireMouseHoverLeave = "40 55 57 41 54 41 56 41 57 48 8D 6C 24 C9 48 81 EC 90 00 00 00 48 8B 01 45 33 E4 4C 8B F2";
+    inline constexpr const char* FireProximityPrompt = "48 89 5C 24 ? 4C 89 4C 24 ? 48 89 54 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 41 0F B6 D8";
+    inline constexpr const char* FireTouchInterest = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 48 83 B9";
+}
+
+namespace Raknet {
+    inline constexpr const char* ProcessNetworkPacket = "4C 89 44 24 ? 48 89 54 24 ? 55 53 56 57 41 54 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4D 8B F9 4C 8B F1"; // 0x30A0D60
+    inline constexpr const char* ReportNetworkError = "48 8B C4 48 89 58 ? 48 89 70 ? 48 89 78 ? 55 41 54 41 55 41 56 41 57 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 0F 29 70 ? 49 8B C1"; // 0x9F96A0
+    inline constexpr const char* Send = "48 89 5C 24 ? 4C 89 4C 24 ? 48 89 54 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4D 8B F1 49 8B F8 48 8B DA"; // 0x31016D0
+    inline constexpr const char* HandleConnectionState = "48 8B C4 53 48 81 EC ? ? ? ? 48 89 68 ? 48 8B D9 48 89 70 ? 49 8B F1"; // 0xA04560
 }
 
 namespace Task {
