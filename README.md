@@ -18,8 +18,8 @@ Maintained By: @credential_ and @2qp0 on discord
 [CURRENT VERSION](https://github.com/zzzzhub/offsets/blob/main/current)
 
 ## INFO
-> VMVALUES and OFFSETS are auto dumped using patterns there then CHECKED and CONFIRMED
-
+> VMVALUES and OFFSETS are auto dumped using STRINGS there then CHECKED and CONFIRMED in IDA and cross refrenced against [luau-lang](https://github.com/luau-lang/luau)
+> 
 > If your looking reach out make sure to contact @credential_ or @2qp0 on discord
 
 ## Accuracy
