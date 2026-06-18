@@ -1,9 +1,7 @@
-// version-76173e47a79145c7 (all accurate)
 // oh yeah pibble dibbble and zzzz on top top top sigma sigma 6767 offset king ahh craca pattern mode habibib type shhh
 // am i losing it? idk but sigmogger my ida plugin is peak use it and check out my github
-// 144 valid patterns that work in ida / get you the xref offset
 // gang hire me and pay me money im the best at patterns so like yeah :p
-
+// version-8884371d30284041
 // created by @pibble (_credential) and @zzzz (2qp0)
 
 #pragma once
@@ -46,7 +44,7 @@ namespace Luau {
     inline constexpr const char* lua_yield = "48 8B 51 ? 48 2B 51 ? 48 C1 FA ? E9";
     inline constexpr const char* lua_eception = "48 8D 05 ? ? ? ? 0F 57 C0 0F 11 41 ? 48 89 01 48 8B C1 48 89 51";
     inline constexpr const char* lua_newstate = "48 89 74 24 ? 55 57 41 56 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B F2 4C 8B F1 48 8B CE";
-    inline constexpr const char* lua_resetthread = "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B 51 ? 48 8B D9 48 85 D2";
+    inline constexpr const char* lua_resetthread = "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B 51 ? 48 8B D9 48 85 D2 0F 84 ? ? ? ? 8B 42 ? 85 C0";
     inline constexpr const char* lua_rawcheckstack = "48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 48 63 FA 48 8B 49 ? 8B C7"; 
     inline constexpr const char* lua_encodepointer = "4C 8B 41 ? 48 8B C2 49 0F AF 80";
     inline constexpr const char* lua_namecallatom = "48 89 5C 24 ? 57 48 83 EC ? 48 8B 59 ? 48 8B FA 48 85 DB CC";
@@ -112,16 +110,16 @@ namespace Roblox {
     inline constexpr const char* PushInstance = "48 89 5C 24 ? 57 48 83 EC ? 48 8B FA 48 8B D9 E8 ? ? ? ? 48 8B CB 84 C0 74 ? 48 8B D7";
     inline constexpr const char* GetIdentityStruct = "48 83 EC ? E8 ? ? ? ? 48 85 C0 74 ? 48 83 C4 ? C3";
     inline constexpr const char* ConnectionDisconnect = "40 53 48 83 EC ? 48 8B D9 48 85 C9 74 ? E8 ? ? ? ? EB"; // 0x1CB7DB0
-    inline constexpr const char* IsLegalSendEvent = "48 83 EC ? 48 8B 89 ? ? ? ? 48 85 C9 CC CC E8 ? ? ? ? 83 F8"; // 0xA18810
+    inline constexpr const char* IsLegalSendEvent = "48 83 EC ? 48 8B 89 ? ? ? ? 48 85 C9 CC CC E8 ? ? ? ? 83 F8 ? 75 ? 32 C0";
 }
 
 namespace Input {
-    inline constexpr const char* FireLeftMouseClick = "48 8B C4 55 41 54 41 56 41 57 48 8D 68 A1 48 81 EC 88 00 00 00 F3 0F 10 81 00 01 00 00 45 33 E4 0F 2F C1 4D 8B F0 44 89 65 6F 4C 8B F9 0F 86 B9 01 00 00";
-    inline constexpr const char* FireRightMouseClick = "48 8B C4 55 41 54 41 56 41 57 48 8D 68 A1 48 81 EC 88 00 00 00 F3 0F 10 81 00 01 00 00 45 33 E4 0F 2F C1 4D 8B F0 44 89 65 6F 4C 8B F9 0F 86 BC 01 00 00";
+    inline constexpr const char* FireLeftMouseClick = "48 8B C4 55 41 54 41 56 41 57 48 8D 68 ? 48 81 EC ? ? ? ? F3 0F 10 81 ? ? ? ? 45 33 E4 0F 2F C1 4D 8B F0 44 89 65 ? 4C 8B F9 0F 86 B9 01 00 00";
+    inline constexpr const char* FireRightMouseClick = "48 8B C4 55 41 54 41 56 41 57 48 8D 68 ? 48 81 EC ? ? ? ? F3 0F 10 81 ? ? ? ? 45 33 E4 0F 2F C1 4D 8B F0 44 89 65 ? 4C 8B F9 0F 86 BC 01 00 00";
     inline constexpr const char* FireMouseHoverEnter = "48 89 5C 24 ? 48 89 74 24 ? 55 57 41 54 41 56 41 57 48 8B EC 48 81 EC ? ? ? ? 45 33 E4";
-    inline constexpr const char* FireMouseHoverLeave = "40 55 57 41 54 41 56 41 57 48 8D 6C 24 C9 48 81 EC 90 00 00 00 48 8B 01 45 33 E4 4C 8B F2";
+    inline constexpr const char* FireMouseHoverLeave = "40 55 57 41 54 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B 01";
     inline constexpr const char* FireProximityPrompt = "48 89 5C 24 ? 4C 89 4C 24 ? 48 89 54 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 41 0F B6 D8";
-    inline constexpr const char* FireTouchInterest = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 48 83 B9";
+    inline constexpr const char* FireTouchInterest = "48 89 5C 24 ? 48 89 6C 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 48 83 B9 ? ? ? ? ? 45 0F B6 F1";
 }
 
 namespace Raknet {
