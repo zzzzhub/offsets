@@ -1,6 +1,7 @@
 namespace Strings {
     const uintptr_t FlogDataBank = "WindowsRealtimeProtocolEnabled" // string use xref
-    const uintptr_t Print = "Current identity is %d // string use xref"
+    const uintptr_t Print = "Current identity is %d" // string use xref"
+    const uintptr_t Print = "printidentity" // go to xref of dq hover over it convert the middle section of the dq layout to code then proc it then convert to pseudo so it becomes a func then go back to the original xref or printidentity hover over it then convert the string on it to code then proc then pseudo and you have the same string listed above.
     const uintptr_t Print_alternative = "print identity" // string use xref or make into func
     const uintptr_t KTable = "Trying to call method on object of type: `%s` with incorrect arguments." // string use xref
     const uintptr_t LockViolationInstanceCrash =  "LockViolationInstanceCrash" // string use xref
@@ -22,3 +23,5 @@ namespace Strings {
     const uintptr_t lua_concat = "attempt to concatenate %s with %s"  // string use xref
     const uintptr_t lua_pcall = "error in error handling"  // string use xref
 }
+
+/* https://www.youtube.com/watch?v=gXJIdW-MCuU <<<< tutorial on how to get print offset specifically printidentity method */
