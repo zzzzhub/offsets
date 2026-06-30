@@ -24,4 +24,4 @@ namespace Strings {
     const uintptr_t lua_pcall = "error in error handling"  // string use xref
 }
 
-/* https://www.youtube.com/watch?v=gXJIdW-MCuU <<<< tutorial on how to get print offset specifically printidentity method */
+/* https://www.youtube.com/watch?v=gXJIdW-MCuU - tutorial on how to get print offset specifically printidentity method */
