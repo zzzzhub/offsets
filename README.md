@@ -25,7 +25,8 @@ Maintained By: @credential_ and @2qp0 on discord
 
 ## Accuracy
 <img width="756" height="207" alt="image" src="https://github.com/user-attachments/assets/847efe35-0c8e-4536-8eb7-734057a887c0" />
-<img width="756" height="207" alt="image" src="https://github.com/user-attachments/assets/7533b27d-02e8-4622-bf55-94f4de03bea0" />
+<img width="808" height="92" alt="image" src="https://github.com/user-attachments/assets/bf4304c0-7b49-42db-9ac1-94a5fca2903f" />
+
 
 > ty mx <3
 
