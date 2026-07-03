@@ -7,6 +7,7 @@ Maintained By: @credential_ and @2qp0 on discord
 <p align="center">
   <a href="https://github.com/zzzzhub/offsets/commits/">
     <img src="https://img.shields.io/github/last-commit/zzzzhub/offsets?style=for-the-badge&logo=github&color=black">
+    
   </a>
 </p>
 
@@ -24,6 +25,7 @@ Maintained By: @credential_ and @2qp0 on discord
 
 ## Accuracy
 <img width="756" height="207" alt="image" src="https://github.com/user-attachments/assets/847efe35-0c8e-4536-8eb7-734057a887c0" />
+<img width="756" height="207" alt="image" src="https://github.com/user-attachments/assets/7533b27d-02e8-4622-bf55-94f4de03bea0" />
 
 > ty mx <3
 
