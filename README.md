@@ -18,9 +18,9 @@ Maintained By: @credential_ and @2qp0 on discord
 [CURRENT VERSION](https://github.com/zzzzhub/offsets/blob/main/current)
 
 ## INFO
-> VMVALUES and OFFSETS are auto dumped using STRINGS there then CHECKED and CONFIRMED in IDA and cross refrenced against [luau-lang](https://github.com/luau-lang/luau)
+> VMVALUES, STRUCTS and OFFSETS are auto dumped using STRINGS there then CHECKED and CONFIRMED in IDA and cross refrenced against [luau-lang](https://github.com/luau-lang/luau)
 > 
-> If your looking reach out make sure to contact @credential_ or @2qp0 on discord
+> If your looking for more offsets or would like to something from me go ahead and reach out to @credential_ or @2qp0 on discord
 
 ## Accuracy
 <img width="756" height="207" alt="image" src="https://github.com/user-attachments/assets/847efe35-0c8e-4536-8eb7-734057a887c0" />
