@@ -10,7 +10,7 @@ namespace Strings {
     const uintptr_t luaT_Eventnames = "__call" // string use xref
     const uintptr_t luaT_typenames = "userdata" // string use xref
     const uintptr_t RawScheduler = "HumanoidParallelManagerTaskQueue" // string use xref
-    const uintptr_t TaskScehulderTargetFps = "TaskSchedulerTargetFps" // string use xref
+    const uintptr_t TaskSchedulerTargetFps = "TaskSchedulerTargetFps" // string use xref
     const uintptr_t OpcodeLookupTable = "; R%d: %s%s from %d to %d" // string use xref
     const uintptr_t FireTouchInterest = "new overlap in different world" // string use xref
     const uintptr_t GetGlobalState = "Script Start" // string use xref
