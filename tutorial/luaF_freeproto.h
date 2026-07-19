@@ -1,5 +1,6 @@
 // luaF_freeproto guide by: pibbly, and zzzz
 // make sure to check out our github: https://github.com/zzzzhub
+// feel free to join the discord -> discord.gg/zzzzhub
 
 __int64 __fastcall luaF_freeproto(__int64 L, __int64 f, __int64 page)
 {
